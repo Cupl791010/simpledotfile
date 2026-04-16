@@ -1,33 +1,4 @@
-# 🧠 My Personal Dotfiles – Arch Linux + Hyprland
-
-Minimalistic dotfiles for my Arch Linux setup, Hyprland as the window manager.
-This configuration is designed to be lightweight, fast, and easy to use, with a focus on minimalism.
----
-
-# Preview
-![Preview](./preview1.png)
-![Preview](./preview2.png)
-![Neovim](./nvim_preview.png)
-
-## ⚡ Quick Installation
-
-To install my dotfiles and get started instantly, run:
-
-```bash
-source <(curl -s https://www.nishanbista.com/dotfiles.sh)
-```
-
-### What happens running this command?
-- Clones my dotfiles into your home directory.
-- Creates symbolic links to place configs in their proper locations.
-- (Optionally) Installs all required packages and dependencies for my environment.
-
-
-> [!WARNING]
->  You should not copy/paste any commands without knowing what it does specially with `source < ("")`. Although this script is safe. First make sure you check the script :)`
->    ```bash
->    curl -s https://www.nishanbista.com/dotfiles.sh | cat 
-> ```
+# My Personal Dotfiles – Arch Linux + Hyprland
 
 
 # Packages
@@ -122,4 +93,3 @@ source <(curl -s https://www.nishanbista.com/dotfiles.sh)
 
 - `SUPER + SHIFT + M` - Exit hyprland
 
-# Feel free to use and customize to your preference <3!
